@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "raleway";
+  src: url(../public/Raleway-VariableFont_wght.ttf);
+}
+
+.raleway {
+  font-family: "raleway";
+}
+
+@layer utilities {
+  .from-white\/70 {
+    --tw-gradient-from: rgba(255, 255, 255, 0.7);
+  }
+  .via-transparent {
+    --tw-gradient-stops: var(--tw-gradient-from), transparent,
+      var(--tw-gradient-to, transparent);
+  }
+  .to-transparent {
+    --tw-gradient-to: transparent;
+  }
+}
