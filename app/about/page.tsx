@@ -8,7 +8,7 @@ const About = () => {
   return (
     <main className="p-10 flex flex-col items-start justify-center min-h-screen mt-20 sm:mt-20 max-w-sm:mt-20 lg:mt-2 max-w-lg:mt-2">
       <div className="main-header-container ml-auto sm:ml-auto lg:ml-80">
-        <span className="text-xs text-gray-400 raleway font-semibold tracking-[0.2em] ml-1 sm:ml-1 lg:ml-14">
+        <span className="text-xs text-gray-400 raleway font-normal tracking-normal sm:tracking-normal lg:tracking-[0.2em] ml-1 sm:ml-1 sm:font-normal lg:ml-14 lg:font-semibold">
           ITS SLOW BUT ITS PROGRESS...
         </span>
         <div className="relative mt-2">
