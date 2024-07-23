@@ -14,11 +14,12 @@ const AiProjects = () => {
           </span>
           <div className="title-container flex flex-col gap-5">
             <span className="raleway text-4xl font-semibold">
-              Design projects for web interfaces
+              Integrating OpenAI in fun projects
             </span>
             <span className="raleway text-xs">
-              Some draft ideas for web interface projects that are
-              professionally tailored for an internet presence.
+              Some projects I've worked on using OpenAI API. These projects are
+              built using different technologies to see how they can be
+              integrated with OpenAI API.
             </span>
           </div>
           <hr className="border border-gray-200 opacity-50 w-full mt-5 mb-5" />
