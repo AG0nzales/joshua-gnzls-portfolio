@@ -34,9 +34,7 @@ const HomePage = () => {
               Joshua is a software developer crafting applications with a
               modern, seamless touch. Recently, he created landing pages
               <br className="hidden lg:block max-w-lg:block" />
-              for commerce, coaching, and business. He's currently a
-              <br className="hidden lg:block max-w-lg:block" />
-              full stack developer at Transcom.
+              for commerce, coaching, and business.
             </span>
           </div>
         </div>
