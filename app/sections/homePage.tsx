@@ -32,7 +32,7 @@ const HomePage = () => {
           <div className="block leading-normal">
             <span className="text-xl max-w-lg:text-5xl lg:text-5xl sm:text-xl max-w-sm:text-xl font-semibold leading-tight bg-gradient-to-r from-[#8d8d8d] to-[#333333] bg-clip-text text-transparent">
               Joshua is a software developer crafting applications with a
-              modern, seamless touch. Recently, he created landing pages
+              modern, seamless touch. Recently, he created landing pages{" "}
               <br className="hidden lg:block max-w-lg:block" />
               for commerce, coaching, and business.
             </span>

@@ -90,25 +90,25 @@ const SideNav = () => (
       </div>
     </div>
 
-    <div className="fixed top-0 left-0 w-full bg-transparent backdrop-blur-sm z-50 block sm:block max-w-sm:block lg:hidden max-w-lg:hidden">
+    <div className="phone-navigation fixed top-0 left-0 w-full bg-transparent backdrop-blur-sm z-50 block sm:block max-w-sm:block lg:hidden max-w-lg:hidden">
       <div className="flex items-center gap-5 justify-between p-4">
         <Link href="/">
           <Image
             src="/assets/name2.png"
             alt="Joshua Andre Gonzales"
             priority
-            width={80}
-            height={80}
+            width={60}
+            height={60}
           />
         </Link>
         <div className="flex items-center gap-8 py-1">
-          <span className="text-xl font-semibold raleway">
+          <span className="text-lg font-semibold raleway">
             <Link href="/about">About</Link>
           </span>
-          <span className="text-xl font-semibold raleway">
+          <span className="text-lg font-semibold raleway">
             <Link href="/ideas">Ideas</Link>
           </span>
-          <span className="text-xl font-semibold raleway">
+          <span className="text-lg font-semibold raleway">
             <Link href="/cv">CV</Link>
           </span>
         </div>

@@ -50,8 +50,8 @@ const AiProjects = () => {
             <CraftsBox
               pageLink="/contextquiz"
               imageSrc="/assets/contextquiz-mockup.png"
-              imageWidth={400}
-              imageHeight={400}
+              imageWidth={800}
+              imageHeight={800}
               title="Context Quiz Generator"
               subTitle2="Python, Streamlit, OpenAI"
               date="2023"
