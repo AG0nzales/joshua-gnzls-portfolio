@@ -11,7 +11,7 @@ const Cnltk = () => {
       <div className="image-contain bg-gray-100 flex items-center justify-center">
         <Image
           src="/assets/mockup-cnltk.png"
-          alt="Craft Image"
+          alt="CNLTK"
           width={800}
           height={800}
           quality={100}

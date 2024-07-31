@@ -65,7 +65,7 @@ const Wha2cook = () => {
         <div className="image-container flex items-center justify-center overflow-hidden bg-gray-50 rounded border">
           <Image
             src="/assets/phone-blank.png"
-            alt="pos tagger"
+            alt="blank mock"
             width={600}
             height={600}
             quality={100}

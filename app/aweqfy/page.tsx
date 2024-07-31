@@ -7,7 +7,7 @@ const Aweqfy = () => {
       <div className="image-contain bg-gray-100 flex items-center justify-center">
         <Image
           src="/assets/aweqfy.png"
-          alt="Craft Image"
+          alt="Aweqfy"
           width={800}
           height={800}
           quality={100}

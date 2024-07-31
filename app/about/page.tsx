@@ -47,7 +47,7 @@ const About = () => {
               <div className="relative hidden sm:hidden lg:block">
                 <Image
                   src="/assets/window22.png"
-                  alt="me"
+                  alt="Joshua Andre Gonzales"
                   width={800}
                   height={1000}
                 />
@@ -115,7 +115,7 @@ const About = () => {
               <div className="relative">
                 <Image
                   src="/uic.png"
-                  alt="me"
+                  alt="UYniversity of the Immaculate Conception"
                   width={400}
                   height={1000}
                   className="rounded-lg mb-2"
@@ -260,7 +260,12 @@ const About = () => {
             </div>
             <div className="image-container w-full hidden sm:hidden lg:block">
               <div className="relative">
-                <Image src="/window3.png" alt="me" width={800} height={1000} />
+                <Image
+                  src="/window3.png"
+                  alt="Joshua Andre Gonzales"
+                  width={800}
+                  height={1000}
+                />
                 {/* <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent pointer-events-none top-left-fog" />
                 <div className="absolute inset-0 bg-gradient-to-tl from-white/20 to-transparent pointer-events-none bottom-right-fog" /> */}
               </div>

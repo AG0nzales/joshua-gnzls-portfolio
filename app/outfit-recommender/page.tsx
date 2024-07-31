@@ -66,7 +66,7 @@ const OutfitRecommender = () => {
         <div className="image-container flex items-center justify-center overflow-hidden bg-gray-50 rounded border">
           <Image
             src="/assets/mockup-blank2.png"
-            alt="pos tagger"
+            alt="blank mock"
             width={600}
             height={600}
             quality={100}

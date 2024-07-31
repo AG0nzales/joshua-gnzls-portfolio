@@ -36,7 +36,7 @@ const AiProjects = () => {
               imageSrc="/assets/chatpdf-mockup.png"
               imageWidth={800}
               imageHeight={800}
-              title="Service Business Landing Page"
+              title="AI Projects"
               subTitle2="Nextjs, TailwindCSS, Clerk, OpenAI"
               date="2023"
             />
