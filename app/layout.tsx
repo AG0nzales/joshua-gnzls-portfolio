@@ -6,8 +6,18 @@ import SideNav from "./components/side-nav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Joshua Gnzls",
-  description: "Joshua Andre Gonzales Portfolio",
+  metadataBase: new URL("http://joshua-gnzls.vercel.app"),
+  keywords: [
+    "Joshua Andre Gonzales",
+    "Joshua Gnzls",
+    "Joshua Andre Gonzales",
+    "joshua andre gonzales",
+  ],
+  title: {
+    default: "Joshua Andre Gonzales",
+    template: "%s | Joshua Andre Gonzales",
+  },
+  description: "Joshua Andre Gonzales Portfolio Website",
 };
 
 export default function RootLayout({
