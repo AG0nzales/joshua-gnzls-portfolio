@@ -13,7 +13,7 @@ const About = () => {
         </span>
         <div className="relative mt-2">
           <Image
-            src="/window1-2.png"
+            src="/window-josh.png"
             alt="Joshua Andre Gonzales"
             width={1200}
             height={1200}
@@ -64,24 +64,19 @@ const About = () => {
                 Davao City, Philippines.
               </span>
               <span className="raleway text-xs leading-5">
-                I've been designing websites, focusing on understanding and
-                manipulating elements to create beautiful, functional sites that
-                cater to diverse user interactions. My curiosity drives me to
-                explore seamless functionalities and user experience. Though I'm
-                still in the early stages of my journey, I am making progress
-                and excited to explore more.
+                I've been designing and developing websites, focusing on
+                creating functional, user-friendly sites. I'm also exploring
+                Machine Learning and AI, with a strong interest in LLM projects.
+                My curiosity drives me to enhance user experiences and
+                experiment with existing ML models. Though early in my journey,
+                I'm excited to continue exploring.
               </span>
               <span className="raleway text-xs leading-5">
-                During my approach of senior year in college, I was hit with a
-                realization wherein I should really start doing something that
-                will or would pave my career path. I engaged in community
-                projects, community developer groups, freelancing projects, and
-                joined seminars and workshops to enhance my skills and
-                knowledge. Amidst all the social activities, interactions,
-                connections, and learning, I found myself already into in the
-                world of Technology. I started to maybe should have could
-                somewhat yeah love coding and alas here I am, in my genesis
-                chapter of my career. Still trying to be better
+                In my senior year of college, I realized I needed to start
+                building my career. I joined community projects, developer
+                groups, and attended workshops. Through these experiences, I
+                discovered my passion for technology and coding. Now, I'm at the
+                steps of my career, striving to improve daily.
               </span>
             </div>
           </div>

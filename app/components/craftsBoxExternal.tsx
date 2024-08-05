@@ -29,7 +29,7 @@ const CraftsBoxExternal: React.FC<CraftsBoxExternalProps> = ({
     <div className="w-full flex flex-col gap-2">
       <a href={pageLink} target="_blank">
         <motion.div
-          className="image-contain p-5 rounded border flex items-center justify-center bg-gray-50 hover:bg-white hover:cursor-pointer"
+          className="image-contain p-5 rounded border flex items-center justify-center hover:cursor-pointer"
           whileHover={{
             scale: 1.01,
             boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.1)",
