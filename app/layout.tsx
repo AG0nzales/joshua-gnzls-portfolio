@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SideNav from "./components/side-nav";
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     default: "Joshua Andre Gonzales",
     template: "%s | Joshua Andre Gonzales",
   },
-  description: "Joshua Andre Gonzales Portfolio Website",
+  description: "Joshua Andre Gonzales",
 };
 
 export default function RootLayout({
@@ -31,6 +32,7 @@ export default function RootLayout({
         <SideNav />
         <section className="main-section w-full overflow-y-auto">
           <div className="">{children}</div>
+          <Analytics />
         </section>
       </body>
     </html>
