@@ -17,7 +17,7 @@ const HomePage = () => {
       <div className="px-4 py-2 lg:px-14 lg:py-10 max-w-lg:px-14 max-w-lg:py-10 sm:px-4 sm:py-2 max-w-sm:px-4 max-w-sm:py-2">
         <div className="flex flex-col gap-8">
           <div className="block">
-            <span className="raleway text-[#AAAAAA] text-xl font-semibold">
+            <span className="raleway text-[#AAAAAA] text-lg sm:text-lg lg:text-xl font-semibold">
               Hello there,
               <span className="text-black font-normal">歓迎 !</span>
             </span>
@@ -32,9 +32,8 @@ const HomePage = () => {
           <div className="block leading-normal">
             <span className="text-xl max-w-lg:text-5xl lg:text-5xl sm:text-xl max-w-sm:text-xl font-semibold leading-tight bg-gradient-to-r from-[#8d8d8d] to-[#333333] bg-clip-text text-transparent">
               Joshua is a software developer crafting applications with a
-              modern, seamless touch. Recently, he created landing pages{" "}
-              <br className="hidden lg:block max-w-lg:block" />
-              for commerce, coaching, and business.
+              modern, seamless touch. Recently, he created landing pages for
+              commerce, coaching, and business.
             </span>
           </div>
         </div>
