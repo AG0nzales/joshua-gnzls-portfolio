@@ -60,8 +60,7 @@ const About = () => {
                 INFO
               </span>
               <span className="raleway text-xs">
-                I'm a software engineer, primarily a web developer, living in
-                Davao City, Philippines.
+                I'm a software developer, living in Philippines.
               </span>
               <span className="raleway text-xs leading-5">
                 I've been designing and developing websites, focusing on
@@ -72,11 +71,11 @@ const About = () => {
                 I'm excited to continue exploring.
               </span>
               <span className="raleway text-xs leading-5">
-                In my senior year of college, I realized I needed to start
-                building my career. I joined community projects, developer
-                groups, and attended workshops. Through these experiences, I
-                discovered my passion for technology and coding. Now, I'm at the
-                steps of my career, striving to improve daily.
+                My uniqueness in design and development comes from following
+                Swiss Style, known for its clean, structured layouts that
+                enhance clarity and user experience. This approach makes
+                websites both functional and visually appealing. My rule of
+                thumb: fewer clicks, less tricks.
               </span>
             </div>
           </div>

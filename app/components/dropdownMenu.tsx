@@ -45,14 +45,14 @@ const DropdownMenu = () => {
                 </Link>
                 <Link href="/interfaces" className="w-fit">
                   <span className="inline-block w-full px-4 py-2 text-xs hover:opacity-50 cursor-pointer raleway">
-                    Sample Designs
+                    Bussiness Designs
                   </span>
                 </Link>
-                <Link href="/error" className="w-fit">
+                {/* <Link href="/error" className="w-fit">
                   <span className="inline-block w-full px-4 py-2 text-xs hover:opacity-50 cursor-pointer raleway">
                     Business Designs
                   </span>
-                </Link>
+                </Link> */}
               </motion.div>
             </div>
           </motion.div>
