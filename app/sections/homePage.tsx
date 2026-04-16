@@ -12,9 +12,23 @@ const HomePage = () => {
   return (
     <section
       id="home"
-      className="w-full flex flex-col gap-5 mt-20 sm:mt-20 max-w-sm:mt-20 lg:mt-2 max-w-lg:mt-2"
+      // className="w-full flex flex-col gap-5 mt-20 sm:mt-20 max-w-sm:mt-20 lg:mt-2 max-w-lg:mt-2"
+      className="w-full min-h-screen flex flex-col gap-5 pt-20 lg:pt-2"
     >
       <div className="px-4 py-2 lg:px-14 lg:py-10 max-w-lg:px-14 max-w-lg:py-10 sm:px-4 sm:py-2 max-w-sm:px-4 max-w-sm:py-2">
+        <span className="raleway text-[#AAAAAA] text-lg sm:text-lg lg:text-xl font-semibold">
+          Hello there,
+          <span className="text-black font-normal">歓迎 !</span>
+        </span>
+      </div>
+
+      <div className=" flex-1 w-full flex items-center justify-center">
+        <span className="raleway text-[#AAAAAA] text-xl">
+          PORTFOLIO UNDER RENNOVATION
+        </span>
+      </div>
+
+      <div className="hidden px-4 py-2 lg:px-14 lg:py-10 max-w-lg:px-14 max-w-lg:py-10 sm:px-4 sm:py-2 max-w-sm:px-4 max-w-sm:py-2 ">
         <div className="flex flex-col gap-8">
           <div className="block">
             <span className="raleway text-[#AAAAAA] text-lg sm:text-lg lg:text-xl font-semibold">
@@ -170,24 +184,22 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="footer">
-        <div className="border-t py-7 px-14 hidden lg:block max-w-lg:block sm:hidden max-w-sm:hidden">
+      <div className="footer mt-auto">
+        <div className="border-t py-7 px-14 hidden lg:flex items-center">
           <span className="text-gray-500 text-sm">Joshua Gnzls</span>
-          <span className="ml-10 raleway text-gray-500 text-sm">© 2024</span>
+          <span className="ml-auto text-gray-500 text-sm">© 2024</span>
         </div>
 
-        <div className="border border-t-gray-200 border-r-transparent border-l-transparent border-b-transparent py-6 px-4 flex items-center lg:hidden max-w-lg:hidden sm:block max-w-sm:block">
+        <div className="border border-t-gray-200 border-r-transparent border-l-transparent border-b-transparent py-6 px-4 flex items-center lg:hidden">
           <span className="text-gray-500 text-sm font-semibold">JG.2024</span>
           <div className="ml-auto flex gap-4">
-            <span className="w-full py-2 text-sm text-gray-500 hover:opacity-50 cursor-pointer raleway">
+            <span className="py-2 text-sm text-gray-500 hover:opacity-50 cursor-pointer raleway">
               Mail
             </span>
-
-            <span className="w-full py-2 text-sm text-gray-500 hover:opacity-50 cursor-pointer raleway">
+            <span className="py-2 text-sm text-gray-500 hover:opacity-50 cursor-pointer raleway">
               LinkedIn
             </span>
-
-            <span className="w-full py-2 text-sm text-gray-500 hover:opacity-50 cursor-pointer raleway">
+            <span className="py-2 text-sm text-gray-500 hover:opacity-50 cursor-pointer raleway">
               Github
             </span>
           </div>

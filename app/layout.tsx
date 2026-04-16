@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`flex h-screen ${inter.className}`}>
-        <SideNav />
+        {/* <SideNav /> */}
         <section className="main-section w-full overflow-y-auto">
           <div className="">{children}</div>
           <Analytics />
