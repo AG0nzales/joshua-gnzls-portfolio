@@ -32,7 +32,7 @@ const SideNav = () => (
                   href="https://joshdre-gonzales.tiiny.site/Joshua-Andre-Gonzales-Resume.pdf"
                   target="_blank"
                 >
-                  Resume
+                  CV
                 </Link>
               </span>
             </div>
