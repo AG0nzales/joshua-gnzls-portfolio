@@ -28,8 +28,11 @@ const SideNav = () => (
                 <Link href="/ideas">Ideas</Link>
               </span>
               <span className="text-xl font-semibold hover:text-gray-400 raleway w-min">
-                <Link href="https://read.cv/josh_gnzls" target="_blank">
-                  CV
+                <Link
+                  href="https://joshdre-gonzales.tiiny.site/Joshua-Andre-Gonzales-Resume.pdf"
+                  target="_blank"
+                >
+                  Resume
                 </Link>
               </span>
             </div>
