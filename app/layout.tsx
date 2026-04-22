@@ -7,9 +7,10 @@ import SideNav from "./components/side-nav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://joshua-gnzls.vercel.app"),
+  metadataBase: new URL("https://www.joshuagnzls.com"),
   keywords: [
     "Joshua Andre Gonzales",
+    "Joshua Gonzales",
     "Joshua Gnzls",
     "Software Developer",
     "Full Stack Developer",
@@ -18,17 +19,17 @@ export const metadata: Metadata = {
     "AI Projects",
   ],
   title: {
-    default: "Joshua Andre Gonzales | Software Developer",
+    default: "Joshua Andre Gonzales | Web Developer",
     template: "%s | Joshua Andre Gonzales",
   },
   description:
     "Portfolio of Joshua Andre Gonzales, a software developer specializing in full-stack web development, AI projects, and innovative web applications.",
   openGraph: {
-    title: "Joshua Andre Gonzales | Software Developer",
+    title: "Joshua Andre Gonzales | Web Developer",
     description:
       "Portfolio of Joshua Andre Gonzales, a software developer specializing in full-stack web development and AI projects.",
-    url: "https://joshua-gnzls.vercel.app",
-    siteName: "Joshua Andre Gonzales Portfolio",
+    url: "https://www.joshuagnzls.com",
+    siteName: "Joshua Andre Gonzales",
     locale: "en_US",
     type: "website",
   },

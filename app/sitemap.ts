@@ -1,5 +1,5 @@
 export default async function sitemap() {
-  const baseUrl = "https://joshua-gnzls.vercel.app";
+  const baseUrl = "https://www.joshuagnzls.com";
   return [
     {
       url: baseUrl,

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: ["/", "/about", "/wha2cook", "/outfit-recommender", "/cnltk", "/aweqfy", "/ai-projects", "/interfaces", "/chatpdf", "/contextquiz", "/ideas", "/cv"],
       disallow: ["/error"],
     },
-    sitemap: "https://joshua-gnzls.vercel.app/sitemap.xml",
+    sitemap: "https://www.joshuagnzls.com/sitemap.xml",
   };
 }
