@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "AI Projects",
   ],
   title: {
-    default: "Joshua Andre Gonzales | Web Developer",
+    default: "Joshua Andre Gonzales | Software Engineer | Full-Stack Developer",
     template: "%s | Joshua Andre Gonzales",
   },
   description:
