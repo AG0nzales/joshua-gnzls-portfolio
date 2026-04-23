@@ -5,18 +5,18 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Joshua Andre Gonzales - joshuagnzls.com",
-  description: "Web Developer based in the Philippines",
-  keywords: [
-    "joshua andre gonzales",
-    "joshua gonzales",
-    "software engineer",
-    "software developer",
-    "web developer",
-    "portfolio",
-  ],
-};
+// export const metadata: Metadata = {
+//   title: "Joshua Andre Gonzales - joshuagnzls.com",
+//   description: "Web Developer based in the Philippines",
+//   keywords: [
+//     "joshua andre gonzales",
+//     "joshua gonzales",
+//     "software engineer",
+//     "software developer",
+//     "web developer",
+//     "portfolio",
+//   ],
+// };
 
 const About = () => {
   return (
