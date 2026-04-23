@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Joshua Andre Gonzales, a software developer specializing in full-stack web development, AI projects, and innovative web applications.",
   openGraph: {
-    title: "Joshua Andre Gonzales | Web Developer",
+    title: "Joshua Andre Gonzales | Software Engineer | Full-Stack Developer",
     description:
       "Portfolio of Joshua Andre Gonzales, a software developer specializing in full-stack web development and AI projects.",
     url: "https://www.joshuagnzls.com",
