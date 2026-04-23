@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     "AI Projects",
   ],
   title: {
-    default: "Joshua Andre Gonzales | Software Engineer | Full-Stack Developer",
+    default: "Joshua Gonzales | Software Engineer | Full-Stack Developer",
     template: "%s | Joshua Andre Gonzales",
   },
   description:
     "Portfolio of Joshua Andre Gonzales, a software developer specializing in full-stack web development, AI projects, and innovative web applications.",
   openGraph: {
-    title: "Joshua Andre Gonzales | Software Engineer | Full-Stack Developer",
+    title: "Joshua Gonzales | Software Engineer | Full-Stack Developer",
     description:
       "Portfolio of Joshua Andre Gonzales, a software developer specializing in full-stack web development and AI projects.",
     url: "https://www.joshuagnzls.com",
