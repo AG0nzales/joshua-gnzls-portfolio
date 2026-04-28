@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-import { Inter } from "next/font/google";
+import { Inter, Raleway } from "next/font/google";
 import "./globals.css";
-import SideNav from "./components/side-nav";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const raleway = Raleway({ subsets: ["latin"], variable: "--font-raleway" });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://joshua-gnzls.vercel.app"),
@@ -39,12 +39,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`flex h-screen ${inter.className}`}>
-        {/* <SideNav /> */}
-        <section className="main-section w-full overflow-y-auto">
-          <div className="">{children}</div>
-          <Analytics />
-        </section>
+      <body className={`${inter.variable} ${raleway.variable} font-sans`}>
+        {children}
+        <Analytics />
       </body>
     </html>
   );
