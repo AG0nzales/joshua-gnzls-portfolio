@@ -4,9 +4,31 @@ const About = () => {
   return (
     <section id="about" className="min-h-screen py-20 relative z-10">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-12 raleway text-center">
-          About Me
-        </h2>
+        <div className="flex flex-col items-center mb-12">
+          <div className="w-16 h-16 mb-6 rounded-2xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] border-2 border-[#e8dfd0] flex items-center justify-center shadow-lg">
+            <svg
+              className="w-8 h-8 text-gray-700"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1.5}
+                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+              />
+            </svg>
+          </div>
+          <h2 className="text-4xl font-bold mb-4 raleway text-center">
+            About Me
+          </h2>
+          <p className="text-gray-600 text-center max-w-2xl raleway leading-relaxed">
+            Get to know my journey as a developer, my skills, and what drives me
+            to create impactful digital experiences
+          </p>
+          <div className="w-24 h-1 mt-4 bg-gradient-to-r from-transparent via-[#e8dfd0] to-transparent rounded-full"></div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
           <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8 space-y-4">
@@ -27,12 +49,12 @@ const About = () => {
             </p>
             <div className="flex justify-center items-center gap-6">
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                <span className="text-sm font-medium raleway">
+                <span className="text-sm font-semibold raleway">
                   3+ Years Experience
                 </span>
               </div>
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                <span className="text-sm font-medium raleway">
+                <span className="text-sm font-semibold raleway">
                   10+ Technologies
                 </span>
               </div>
@@ -40,7 +62,7 @@ const About = () => {
           </div>
           <div className="space-y-6">
             <div className="mb-6 flex justify-center">
-              <div className="relative w-48 h-48 rounded-2xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] border-2 border-gray-300 flex items-center justify-center overflow-hidden shadow-lg">
+              <div className="relative w-64 h-64 rounded-2xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] border-2 border-gray-300 flex items-center justify-center overflow-hidden shadow-lg">
                 <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-transparent"></div>
                 <div className="relative z-10 text-center">
                   <svg
@@ -62,7 +84,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8">
+            {/* <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8">
               <h3 className="text-xl font-bold mb-4 raleway">Education</h3>
               <p className="font-semibold raleway">
                 University of the Immaculate Conception
@@ -70,7 +92,7 @@ const About = () => {
               <p className="text-gray-600 raleway">
                 Bachelor of Science in Computer Science
               </p>
-            </div>
+            </div> */}
             {/* <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8">
               <h3 className="text-xl font-bold mb-4 raleway">Location</h3>
               <p className="text-gray-600 raleway">Philippines</p>
@@ -85,9 +107,9 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
             <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8">
               <div className="flex flex-col items-center">
-                <div className="w-16 h-16 mb-4 rounded-xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] flex items-center justify-center shadow-lg border border-[#e8dfd0]">
+                <div className="w-12 h-12 mb-4 rounded-xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] flex items-center justify-center shadow-lg border border-[#e8dfd0]">
                   <svg
-                    className="w-8 h-8 text-gray-700"
+                    className="w-6 h-6 text-gray-700"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -109,23 +131,33 @@ const About = () => {
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                    <span className="text-sm font-medium raleway">React</span>
+                    <span className="text-xs font-semibold raleway">React</span>
                   </div>
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                    <span className="text-sm font-medium raleway">Next</span>
+                    <span className="text-xs font-semibold raleway">Next</span>
                   </div>
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                    <span className="text-sm font-medium raleway">PHP</span>
+                    <span className="text-xs font-semibold raleway">
+                      CodeIgniter
+                    </span>
                   </div>
+                  {/* <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
+                    <span className="text-xs font-semibold raleway">
+                      TypeScript
+                    </span>
+                  </div>
+                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
+                    <span className="text-xs font-semibold raleway">PHP</span>
+                  </div> */}
                 </div>
               </div>
             </div>
 
             <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8">
               <div className="flex flex-col items-center">
-                <div className="w-16 h-16 mb-4 rounded-xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] flex items-center justify-center shadow-lg border border-[#e8dfd0]">
+                <div className="w-12 h-12 mb-4 rounded-xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] flex items-center justify-center shadow-lg border border-[#e8dfd0]">
                   <svg
-                    className="w-8 h-8 text-gray-700"
+                    className="w-6 h-6 text-gray-700"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -145,13 +177,15 @@ const About = () => {
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                    <span className="text-sm font-medium raleway">Figma</span>
+                    <span className="text-xs font-semibold raleway">Figma</span>
                   </div>
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                    <span className="text-sm font-medium raleway">Webflow</span>
+                    <span className="text-xs font-semibold raleway">
+                      Webflow
+                    </span>
                   </div>
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                    <span className="text-sm font-medium raleway">
+                    <span className="text-xs font-semibold raleway">
                       Photoshop
                     </span>
                   </div>
