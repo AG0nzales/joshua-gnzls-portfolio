@@ -64,7 +64,7 @@ const About = () => {
             </div>
           </div>
           <div className="space-y-6">
-            <div className=" flex justify-center">
+            <div className="hidden md:flex justify-center">
               <div className="relative w-96 h-96 rounded-2xl border-[1.5px] border-gray-100 overflow-hidden shadow-lg">
                 <img
                   src="/assets/josh3.png"

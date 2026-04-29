@@ -118,18 +118,18 @@ const Experience = () => {
         </div>
 
         <div className="relative">
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-300"></div>
+          <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 h-full w-0.5 bg-gray-300"></div>
 
           <div className="space-y-12">
             {experiences.map((exp, index) => (
               <div
                 key={exp.id}
-                className="relative flex items-center justify-center"
+                className="relative flex items-center md:justify-center"
               >
                 <div
-                  className={`flex w-full items-center ${index % 2 === 0 ? "flex-row" : "flex-row-reverse"}`}
+                  className={`flex w-full md:items-center ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"}`}
                 >
-                  <div className="w-1/2 px-8">
+                  <div className="pl-12 md:w-1/2 md:px-8">
                     <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl p-6 hover:rotate-1 transition-all hover:shadow-2xl duration-300">
                       <div className="flex items-start justify-between mb-3">
                         <div className="flex items-center gap-2">
@@ -214,7 +214,7 @@ const Experience = () => {
                     </div>
                   </div>
 
-                  <div className="w-1/2 px-8 flex items-center justify-center">
+                  <div className="hidden md:block w-1/2 px-8 flex items-center justify-center">
                     <div className="text-center">
                       <span className="text-lg font-semibold text-gray-700 raleway">
                         {exp.date}
@@ -222,7 +222,7 @@ const Experience = () => {
                     </div>
                   </div>
 
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-4 border-white shadow-lg z-10"></div>
+                  <div className="absolute left-4 md:left-1/2 md:transform md:-translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-4 border-white shadow-lg z-10"></div>
                 </div>
               </div>
             ))}
