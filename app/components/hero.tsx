@@ -10,7 +10,7 @@ const Hero = () => {
       className="min-h-screen flex items-center justify-center pt-20 relative z-10"
     >
       <div className="max-w-5xl mx-auto px-6 text-center">
-        <div className="bg-white/20 backdrop-blur-xl rounded-3xl border border-white/20 shadow-xl shadow-black/10 p-12 md:p-20">
+        <div className="bg-[#fcfbf8]/80 backdrop-blur-xl rounded-3xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-12 md:p-20 transition-transform duration-300">
           {/* <div className="mb-10 flex items-center justify-center gap-6">
             <div className="w-28 h-28 rounded-2xl bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 flex items-center justify-center text-white text-5xl font-bold raleway shadow-xl shadow-black/20 rotate-3 hover:rotate-0 transition-transform duration-300">
               JG
@@ -139,7 +139,7 @@ const Hero = () => {
             </Link>
             <Link
               href="#contact"
-              className="w-full sm:w-auto px-10 py-4 border-2 border-gray-300 bg-stone-50/50 text-gray-700 rounded-xl font-semibold raleway hover:border-gray-400 hover:bg-stone-100/70 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-gray-400/50 focus:ring-offset-2 focus:ring-offset-white/50 text-center backdrop-blur-sm"
+              className="w-full sm:w-auto px-10 py-4 border-[1.5px] border-gray-300 bg-stone-50/50 text-gray-700 rounded-xl font-semibold raleway hover:border-gray-400 hover:bg-stone-100/70 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-gray-400/50 focus:ring-offset-2 focus:ring-offset-white/50 text-center backdrop-blur-sm"
             >
               Get in Touch
             </Link>
@@ -155,7 +155,7 @@ const Hero = () => {
             }
           }}
         >
-          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] border-2 border-gray-300 flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow">
+          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] border-[1.5px] border-gray-300 flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow">
             <svg
               className="w-6 h-6 text-gray-700"
               fill="none"

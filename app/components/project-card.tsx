@@ -31,7 +31,7 @@ const ProjectCard = ({
 
   return (
     <Link href={pageLink} className="block group focus:outline-none focus:ring-2 focus:ring-black/50 focus:ring-offset-2 focus:ring-offset-white/50 rounded-2xl">
-      <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 overflow-hidden hover:shadow-2xl hover:shadow-black/15 transition-all hover:scale-[1.02] h-full">
+      <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 overflow-hidden hover:shadow-2xl hover:shadow-black/15 transition-all hover:scale-[1.05] h-full duration-300">
         <div className="relative w-full aspect-square overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
           <div className={`absolute inset-0 bg-gradient-to-br ${gradientColors[colorIndex]} opacity-90`} />
           <div className="relative z-10 text-white text-6xl font-bold raleway drop-shadow-lg">

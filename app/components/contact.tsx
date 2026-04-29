@@ -10,7 +10,7 @@ const Contact = () => {
         <h2 className="text-4xl font-bold mb-12 raleway text-center">Get In Touch</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8 space-y-6">
+          <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-8 space-y-6">
             <p className="text-lg raleway leading-relaxed">
               I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
             </p>
@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8 relative">
+          <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-8 relative">
             <h3 className="text-2xl font-bold mb-6 raleway">Send a Message</h3>
             <div className="relative">
               <div className="absolute inset-0 bg-gray-100/30 backdrop-blur-[2px] rounded-2xl z-10 flex items-center justify-center">

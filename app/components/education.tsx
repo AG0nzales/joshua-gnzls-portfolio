@@ -34,7 +34,7 @@ const Education = () => {
           <h3 className="text-2xl font-bold mb-8 raleway text-center">
             Academic Credentials
           </h3>
-          <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8 mb-12">
+          <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-8 mb-12 hover:rotate-1 transition-transform duration-300">
             <div className="flex items-start gap-4 mb-6">
               <div className="w-14 h-14 flex-shrink-0 rounded-xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] flex items-center justify-center shadow-lg border border-[#e8dfd0]">
                 <svg
@@ -166,7 +166,7 @@ const Education = () => {
             Conferences & Recognition
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-6">
+            <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-6 hover:rotate-1 transition-transform duration-300">
               <div className="flex items-start gap-4">
                 {/* <div className="w-14 h-14 flex-shrink-0 rounded-xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] flex items-center justify-center shadow-lg border border-[#e8dfd0]">
                   <svg
@@ -226,7 +226,7 @@ const Education = () => {
               </div>
             </div>
 
-            <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-6">
+            <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-6 hover:rotate-1 transition-transform duration-300">
               <div className="flex items-start gap-4">
                 {/* <div className="w-14 h-14 flex-shrink-0 rounded-xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] flex items-center justify-center shadow-lg border border-[#e8dfd0]">
                   <svg

@@ -31,7 +31,7 @@ const About = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
-          <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8 space-y-4">
+          <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-8 space-y-4 hover:rotate-1 transition-transform duration-300">
             <p className="text-medium raleway leading-relaxed">
               I'm a software developer living in the Philippines, specializing
               in full-stack web development and AI projects.
@@ -62,7 +62,7 @@ const About = () => {
           </div>
           <div className="space-y-6">
             <div className="mb-6 flex justify-center">
-              <div className="relative w-64 h-64 rounded-2xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] border-2 border-gray-300 flex items-center justify-center overflow-hidden shadow-lg">
+              <div className="relative w-64 h-64 rounded-2xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] border-[1.5px] border-gray-300 flex items-center justify-center overflow-hidden shadow-lg">
                 <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-transparent"></div>
                 <div className="relative z-10 text-center">
                   <svg
@@ -105,7 +105,7 @@ const About = () => {
             Proficiencies
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
-            <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8">
+            <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-8 hover:rotate-1 transition-transform duration-300">
               <div className="flex flex-col items-center">
                 <div className="w-12 h-12 mb-4 rounded-xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] flex items-center justify-center shadow-lg border border-[#e8dfd0]">
                   <svg
@@ -122,7 +122,7 @@ const About = () => {
                     />
                   </svg>
                 </div>
-                <h4 className="text-xl font-bold mb-3 raleway">
+            <h4 className="text-xl font-bold mb-3 raleway">
                   Full-Stack Development
                 </h4>
                 <p className="text-gray-600 raleway text-center mb-6 leading-relaxed">
@@ -141,19 +141,11 @@ const About = () => {
                       CodeIgniter
                     </span>
                   </div>
-                  {/* <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                    <span className="text-xs font-semibold raleway">
-                      TypeScript
-                    </span>
-                  </div>
-                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                    <span className="text-xs font-semibold raleway">PHP</span>
-                  </div> */}
                 </div>
               </div>
             </div>
 
-            <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8">
+            <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-8 hover:rotate-1 transition-transform duration-300">
               <div className="flex flex-col items-center">
                 <div className="w-12 h-12 mb-4 rounded-xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] flex items-center justify-center shadow-lg border border-[#e8dfd0]">
                   <svg
@@ -200,7 +192,7 @@ const About = () => {
             Community & Publication
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-6">
+            <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-6 hover:rotate-1 transition-transform duration-300">
               <div className="flex items-start gap-4">
                 <div className="w-14 h-14 flex-shrink-0 rounded-xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] flex items-center justify-center shadow-lg border border-[#e8dfd0]">
                   <svg
@@ -246,7 +238,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-6">
+            <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-6 hover:rotate-1 transition-transform duration-300">
               <div className="flex items-start gap-4">
                 <div className="w-14 h-14 flex-shrink-0 rounded-xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] flex items-center justify-center shadow-lg border border-[#e8dfd0]">
                   <svg

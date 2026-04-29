@@ -101,7 +101,7 @@ const Experience = () => {
                   className={`flex w-full items-center ${index % 2 === 0 ? "flex-row" : "flex-row-reverse"}`}
                 >
                   <div className="w-1/2 px-8">
-                    <div className="bg-white/80 backdrop-blur-xl rounded-2xl border border-white/40 shadow-xl p-6 hover:shadow-2xl transition-all">
+                    <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl p-6 hover:rotate-1 transition-all hover:shadow-2xl duration-300">
                       <div className="flex items-start justify-between mb-3">
                         <div className="flex items-center gap-2">
                           <div className="w-10 h-10 bg-[#f5f0e6] rounded-lg flex items-center justify-center border border-[#e8dfd0]">
@@ -174,7 +174,10 @@ const Experience = () => {
 
                       <div className="flex flex-wrap gap-2">
                         {exp.technologies.map((tech) => (
-                          <span key={tech} className="inline-flex items-center gap-2 px-3 py-1 bg-[#f5f0e6] text-gray-800 text-xs font-medium raleway rounded-full border border-[#e8dfd0]">
+                          <span
+                            key={tech}
+                            className="inline-flex items-center gap-2 px-3 py-1 bg-[#f5f0e6] text-gray-800 text-xs font-medium raleway rounded-full border border-[#e8dfd0]"
+                          >
                             {tech}
                           </span>
                         ))}
