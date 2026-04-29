@@ -15,68 +15,75 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     id: 1,
-    company: "Company Placeholder",
+    company: "Freelance",
     position: "Software Engineer",
     location: "Remote, United States",
-    period: "Feb 2024 - Present",
+    period: "Jan 2025 - Apr 2026",
     date: "",
     employmentType: "FULL TIME",
     contributions: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      "Shipped automated payroll and time-tracking modules to improve workforce management.",
+      "Managed end-to-end development of client-specific modules, including database modeling and business logic implementation.",
+      "Built Cypress testing suites to verify feature functionality and prevent production regressions.",
+    ],
+    technologies: ["Next", "Typescript", "CodeIgniter", "PHP", "GCP", "Docker"],
+  },
+  {
+    id: 2,
+    company: "Freelance",
+    position: "Software Engineer",
+    location: "Remote, United States",
+    period: "Aug 2024 - June 2025",
+    date: "",
+    employmentType: "FULL TIME",
+    contributions: [
+      "Managed full-stack development during a legacy migration, implementing new system capabilities and modernizing the user interface.",
+      "Implemented core CRM features in Next.js, including secure authentication and WebSockets for seamless real-time data synchronization.",
+    ],
+    technologies: [
+      "Next",
+      "Typescript",
+      "CodeIgniter",
+      "PHP",
+      "MySQL",
+      "LiquidWeb",
+    ],
+  },
+  {
+    id: 3,
+    company: "Awesome CX, Transcom",
+    position: "Web Developer",
+    location: "Davao City, Philippines",
+    period: "Jan 2023 - Aug 2025",
+    date: "",
+    employmentType: "FULL TIME",
+    contributions: [
+      "Rebuilt a legacy CRM into a React-based SPA, leveraging Redux and Vite to enhance system speed and usability.",
+      "Redesigned the database schema and migrated to a relational database, improving system performance and user retention",
+      "Designed and implemented a queueing system for applicant management as an engineering intern.",
     ],
     technologies: [
       "React",
-      "Typescript",
-      "PHP",
+      "TypeScript",
       "CodeIgniter",
-      "GCP",
+      "PHP",
+      "MySQL",
       "Docker",
     ],
   },
   {
-    id: 2,
-    company: "Company Placeholder",
-    position: "Software Developer",
-    location: "New York, USA",
-    period: "Jan 2022 - Jan 2024",
-    date: "",
-    employmentType: "FULL TIME",
-    contributions: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    ],
-    technologies: ["JavaScript", "Node.js", "Python", "AWS", "PostgreSQL"],
-  },
-  {
-    id: 3,
-    company: "Company Placeholder",
-    position: "Frontend Developer",
-    location: "San Francisco, USA",
-    period: "Jun 2020 - Dec 2021",
-    date: "",
-    employmentType: "FULL TIME",
-    contributions: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco",
-    ],
-    technologies: ["Vue.js", "TypeScript", "MongoDB", "Docker", "Kubernetes"],
-  },
-  {
     id: 4,
-    company: "Company Placeholder",
-    position: "Junior Developer",
-    location: "Chicago, USA",
-    period: "Jan 2019 - May 2020",
+    company: "Freelance",
+    position: "Junior Web Developer",
+    location: "Singapore",
+    period: "Oct-Dec 2022",
     date: "",
-    employmentType: "FULL TIME",
+    employmentType: "CONTRACTUAL",
     contributions: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "Led the frontend team in designing the project’s technical architecture and infrastructure",
+      "Built the appointment scheduling interface for a medical practice management tool.",
     ],
-    technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
+    technologies: ["React", "TypesScript", "Chakra", "Supabase"],
   },
 ];
 
@@ -84,9 +91,31 @@ const Experience = () => {
   return (
     <section id="experience" className="min-h-screen py-20 relative z-10">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-16 raleway text-center">
-          Work Experience
-        </h2>
+        <div className="flex flex-col items-center mb-12">
+          <div className="w-16 h-16 mb-6 rounded-2xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] border-2 border-[#e8dfd0] flex items-center justify-center shadow-lg">
+            <svg
+              className="w-8 h-8 text-gray-700"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1.5}
+                d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
+          </div>
+          <h2 className="text-4xl font-bold mb-4 raleway text-center">
+            Work Experience
+          </h2>
+          <p className="text-gray-600 text-center max-w-2xl raleway leading-relaxed">
+            My professional journey, key contributions, and technologies
+            I've worked with
+          </p>
+          <div className="w-24 h-1 mt-4 bg-gradient-to-r from-transparent via-[#e8dfd0] to-transparent rounded-full"></div>
+        </div>
 
         <div className="relative">
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-300"></div>
@@ -123,7 +152,7 @@ const Experience = () => {
                             {exp.employmentType}
                           </span>
                         </div>
-                        <span className="text-sm text-gray-600 raleway bg-black/5 px-3 py-1 rounded-full border border-white/30">
+                        <span className="text-sm text-gray-600 raleway bg-black/5 px-3 py-1 rounded-full border border-dashed border-gray-400">
                           {exp.period}
                         </span>
                       </div>

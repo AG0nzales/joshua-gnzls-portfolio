@@ -6,16 +6,21 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Joshua Gonzales</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">
+              Joshua Gonzales
+            </h3>
             <p className="text-gray-700 text-sm leading-relaxed">
-              Software Engineer specializing in full-stack development. Passionate about building
-              innovative web applications, creating seamless user experiences, and exploring cutting-edge
-              technologies.
+              Software Engineer with 3+ years of experience, specializing in
+              full-stack development. Passionate about building innovative web
+              applications, creating seamless user experiences, and exploring
+              cutting-edge technologies.
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Quick Links</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">
+              Quick Links
+            </h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
@@ -61,7 +66,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Get in Touch</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">
+              Get in Touch
+            </h3>
             <ul className="space-y-2 text-sm text-gray-700">
               <li className="flex items-start gap-2">
                 <span className="mt-1">📧</span>
@@ -69,11 +76,11 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1">📱</span>
-                <span>+1 (555) 123-4567</span>
+                <span>(+63) 905 245 0984</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1">📍</span>
-                <span>San Francisco, CA</span>
+                <span>Davao City, Philippines</span>
               </li>
             </ul>
           </div>

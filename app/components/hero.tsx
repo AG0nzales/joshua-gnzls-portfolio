@@ -81,7 +81,7 @@ const Hero = () => {
           </h2>
 
           <p className="text-lg md:text-xl text-gray-600 raleway leading-relaxed max-w-3xl mx-auto">
-            Build practical, high-performance web apps that scale, streamline
+            Building practical, high-performance web apps that scale, streamline
             systems, and improve workflows.
           </p>
 
