@@ -21,10 +21,12 @@ export const metadata: Metadata = {
     default: "Joshua Andre Gonzales | Software Developer",
     template: "%s | Joshua Andre Gonzales",
   },
-  description: "Portfolio of Joshua Andre Gonzales, a software developer specializing in full-stack web development, AI projects, and innovative web applications.",
+  description:
+    "Portfolio of Joshua Andre Gonzales, a software developer specializing in full-stack web development, AI projects, and innovative web applications.",
   openGraph: {
     title: "Joshua Andre Gonzales | Software Developer",
-    description: "Portfolio of Joshua Andre Gonzales, a software developer specializing in full-stack web development and AI projects.",
+    description:
+      "Portfolio of Joshua Andre Gonzales, a software developer specializing in full-stack web development and AI projects.",
     url: "https://joshua-gnzls.vercel.app",
     siteName: "Joshua Andre Gonzales Portfolio",
     locale: "en_US",
@@ -39,7 +41,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${raleway.variable} font-sans`}>
+      <body
+        className={`bg-[#f8f5f0] ${inter.variable} ${raleway.variable} font-sans`}
+      >
         {children}
         <Analytics />
       </body>

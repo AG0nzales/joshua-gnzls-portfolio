@@ -6,6 +6,7 @@ import TechnicalCompetencies from "./components/technical-competencies";
 import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 const SectionSeparator = () => (
   <div className="w-full py-8">
@@ -47,12 +48,7 @@ export default function Home() {
       <SectionSeparator />
       <Contact />
 
-      <footer className="border-t border-white/30 py-8 mt-20 relative z-10 bg-white/60 backdrop-blur-xl shadow-xl shadow-black/5">
-        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
-          <span className="text-gray-700 raleway">Joshua Gonzales</span>
-          <span className="text-gray-700 raleway mt-2 md:mt-0">© 2026 </span>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }
