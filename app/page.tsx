@@ -1,6 +1,8 @@
 import NavBar from "./components/nav-bar";
 import Hero from "./components/hero";
 import About from "./components/about";
+import Education from "./components/education";
+import TechnicalCompetencies from "./components/technical-competencies";
 import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
@@ -34,6 +36,10 @@ export default function Home() {
       <Hero />
       <SectionSeparator />
       <About />
+      <SectionSeparator />
+      <Education />
+      <SectionSeparator />
+      <TechnicalCompetencies />
       <SectionSeparator />
       <Experience />
       <SectionSeparator />

@@ -6,29 +6,40 @@ html {
   scroll-behavior: smooth;
 }
 
-.grid-paper {
+/* .grid-paper {
   background-color: #ffffff;
-  background-image: 
+  background-image:
     linear-gradient(to right, #e5e5e5 1px, transparent 1px),
     linear-gradient(to bottom, #e5e5e5 1px, transparent 1px);
   background-size: 40px 40px;
-}
+} */
 
 .grid-paper::before {
-  content: '';
+  content: "";
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: 
-    linear-gradient(to right, rgba(229, 229, 229, 0.1) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(229, 229, 229, 0.1) 1px, transparent 1px);
-  background-size: 8px 8px;
+  inset: 0;
+
+  /* 🔧 CONTROL THESE */
+  --cell-size: 40px; /* small grid squares */
+  --quad-size: 200px; /* quadrant size (make bigger/smaller) */
+
+  background:
+    /* fine grid */
+    linear-gradient(to right, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    /* quadrant lines */
+    linear-gradient(to right, rgba(0, 0, 0, 0.02) 2px, transparent 2px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 2px, transparent 2px);
+
+  background-size:
+    var(--cell-size) var(--cell-size),
+    /* 🔧 small grid density */ var(--cell-size) var(--cell-size),
+    var(--quad-size) var(--quad-size),
+    /* 🔧 square quadrants */ var(--quad-size) var(--quad-size);
+
   pointer-events: none;
   z-index: -1;
 }
-
 .raleway {
   font-family: var(--font-raleway);
 }
