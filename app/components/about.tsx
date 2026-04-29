@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -30,22 +31,24 @@ const About = () => {
           <div className="w-24 h-1 mt-4 bg-gradient-to-r from-transparent via-[#e8dfd0] to-transparent rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-20">
           <div className="bg-[#fcfbf8] backdrop-blur-xl rounded-2xl border-[1.5px] border-gray-300 shadow-xl shadow-black/10 p-8 space-y-4 hover:rotate-1 transition-transform duration-300">
+            <h4 className="text-xl font-bold mb-4 raleway">
+              Constructing Epic with Tech
+            </h4>
             <p className="text-medium raleway leading-relaxed">
-              I'm a software developer living in the Philippines, specializing
-              in full-stack web development and AI projects.
+              I’m a full-stack developer based in the Philippines, dedicated to
+              building clean, functional websites and exploring the frontiers of
+              Artificial Intelligence.
             </p>
             <p className="text-medium raleway leading-relaxed">
-              I've been designing and developing websites, focusing on creating
-              functional, user-friendly sites. I'm also exploring Machine
-              Learning and AI, with a strong interest in LLM projects.
+              Currently, I’m exploring the intersection of web technology and
+              LLMs to create smarter, more interactive applications.
             </p>
             <p className="text-medium raleway leading-relaxed">
-              My uniqueness in design and development comes from following Swiss
-              Style, known for its clean, structured layouts that enhance
-              clarity and user experience. My rule of thumb: fewer clicks, less
-              tricks.
+              I stand for 'clean code and clear interfaces.' I aim to strip away
+              the noise so that users can achieve their goals faster. To me, the
+              best software is the kind that gets out of the user's way.
             </p>
             <div className="flex justify-center items-center gap-6">
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
@@ -61,27 +64,14 @@ const About = () => {
             </div>
           </div>
           <div className="space-y-6">
-            <div className="mb-6 flex justify-center">
-              <div className="relative w-64 h-64 rounded-2xl bg-gradient-to-br from-[#f5f0e6] to-[#e8dfd0] border-[1.5px] border-gray-300 flex items-center justify-center overflow-hidden shadow-lg">
-                <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-transparent"></div>
-                <div className="relative z-10 text-center">
-                  <svg
-                    className="w-16 h-16 mx-auto mb-2 text-gray-500"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                    />
-                  </svg>
-                  <p className="text-sm text-gray-600 font-medium raleway">
-                    Your Photo Here
-                  </p>
-                </div>
+            <div className=" flex justify-center">
+              <div className="relative w-96 h-96 rounded-2xl border-[1.5px] border-gray-100 overflow-hidden shadow-lg">
+                <img
+                  src="/assets/josh3.png"
+                  alt="Joshua Andre Gonzales"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 pointer-events-none"></div>
               </div>
             </div>
             {/* <div className="bg-white/60 backdrop-blur-xl rounded-2xl border border-white/30 shadow-xl shadow-black/10 p-8">
@@ -122,7 +112,7 @@ const About = () => {
                     />
                   </svg>
                 </div>
-            <h4 className="text-xl font-bold mb-3 raleway">
+                <h4 className="text-xl font-bold mb-3 raleway">
                   Full-Stack Development
                 </h4>
                 <p className="text-gray-600 raleway text-center mb-6 leading-relaxed">
