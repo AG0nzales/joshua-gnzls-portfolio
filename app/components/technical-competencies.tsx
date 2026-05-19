@@ -76,6 +76,12 @@ const TechnicalCompetencies = () => {
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
                 <span className="text-xs font-semibold raleway">Python</span>
               </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
+                <span className="text-xs font-semibold raleway">Java</span>
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
+                <span className="text-xs font-semibold raleway">C#</span>
+              </div>
             </div>
           </div>
 

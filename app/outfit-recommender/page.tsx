@@ -9,7 +9,7 @@ const OutfitRecommender = () => {
     <main className="p-10 flex items-center justify-center mt-16 sm:mt-16 lg:mt-1">
       <section className="w-full max-w-4xl space-y-6 overflow-y-auto">
         <div className="w-full flex flex-col gap-8 overflow-hidden">
-          <Link href="/ideas">
+          <Link href="/">
             <motion.button
               type="button"
               className="group flex items-center"

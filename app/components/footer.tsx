@@ -72,7 +72,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-700">
               <li className="flex items-start gap-2">
                 <span className="mt-1">📧</span>
-                <span>joshua@example.com</span>
+                <span>gonzalesjoshdre@gmail.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1">📱</span>

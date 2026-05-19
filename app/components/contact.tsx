@@ -90,7 +90,7 @@ const Contact = () => {
                   <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1 raleway">
                     Phone
                   </h3>
-                  <p className="text-gray-700 raleway">(+63) 9052450984</p>
+                  <p className="text-gray-700 raleway">(+63) 905 245 0984</p>
                 </div>
               </div>
 
@@ -149,9 +149,7 @@ const Contact = () => {
                     <span className="text-sm font-semibold text-gray-800 raleway">
                       GitHub
                     </span>
-                    <p className="text-xs text-gray-600 raleway">
-                      @AG0nzales
-                    </p>
+                    <p className="text-xs text-gray-600 raleway">@AG0nzales</p>
                   </div>
                   <svg
                     className="w-4 h-4 text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity"

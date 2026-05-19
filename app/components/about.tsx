@@ -131,6 +131,9 @@ const About = () => {
                       CodeIgniter
                     </span>
                   </div>
+                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
+                    <span className="text-xs font-semibold raleway">Node</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -170,6 +173,9 @@ const About = () => {
                     <span className="text-xs font-semibold raleway">
                       Photoshop
                     </span>
+                  </div>
+                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
+                    <span className="text-xs font-semibold raleway">Canva</span>
                   </div>
                 </div>
               </div>
