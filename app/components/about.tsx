@@ -128,11 +128,16 @@ const About = () => {
                   </div>
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
                     <span className="text-xs font-semibold raleway">
-                      CodeIgniter
+                      FastApi
                     </span>
                   </div>
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
                     <span className="text-xs font-semibold raleway">Node</span>
+                  </div>
+                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
+                    <span className="text-xs font-semibold raleway">
+                      Claude
+                    </span>
                   </div>
                 </div>
               </div>

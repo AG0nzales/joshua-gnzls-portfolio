@@ -26,7 +26,15 @@ const experiences: ExperienceItem[] = [
       "Managed end-to-end development of client-specific modules, including database modeling and business logic implementation.",
       "Built Cypress testing suites to verify feature functionality and prevent production regressions.",
     ],
-    technologies: ["Next", "Typescript", "CodeIgniter", "PHP", "GCP", "Docker"],
+    technologies: [
+      "Next",
+      "Typescript",
+      "CodeIgniter",
+      "PHP",
+      "GCP",
+      "Docker",
+      "GLM",
+    ],
   },
   {
     id: 2,
@@ -46,7 +54,7 @@ const experiences: ExperienceItem[] = [
       "CodeIgniter",
       "PHP",
       "MySQL",
-      "LiquidWeb",
+      "Claude",
     ],
   },
   {
@@ -111,8 +119,8 @@ const Experience = () => {
             Work Experience
           </h2>
           <p className="text-gray-600 text-center max-w-2xl raleway leading-relaxed">
-            My professional journey, key contributions, and technologies
-            I've worked with
+            My professional journey, key contributions, and technologies I've
+            worked with
           </p>
           <div className="w-24 h-1 mt-4 bg-gradient-to-r from-transparent via-[#e8dfd0] to-transparent rounded-full"></div>
         </div>
