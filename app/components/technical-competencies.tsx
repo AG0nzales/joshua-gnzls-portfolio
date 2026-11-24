@@ -269,19 +269,22 @@ const TechnicalCompetencies = () => {
                 <span className="text-xs font-semibold raleway">Claude</span>
               </div>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                <span className="text-xs font-semibold raleway">OpenAI</span>
+                <span className="text-xs font-semibold raleway">Codex</span>
               </div>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                <span className="text-xs font-semibold raleway">Gemini</span>
+                <span className="text-xs font-semibold raleway">Cursor</span>
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
+                <span className="text-xs font-semibold raleway">OpenAI</span>
               </div>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
                 <span className="text-xs font-semibold raleway">n8n</span>
               </div>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                <span className="text-xs font-semibold raleway">Cypress</span>
+                <span className="text-xs font-semibold raleway">Zapier</span>
               </div>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#f5f0e6] text-gray-800 rounded-full border border-[#e8dfd0]">
-                <span className="text-xs font-semibold raleway">NLTK</span>
+                <span className="text-xs font-semibold raleway">Cypress</span>
               </div>
             </div>
           </div>

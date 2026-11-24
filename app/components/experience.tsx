@@ -17,8 +17,28 @@ const experiences: ExperienceItem[] = [
     id: 1,
     company: "Freelance",
     position: "Software Engineer",
-    location: "Remote, United States",
-    period: "Jan 2025 - Apr 2026",
+    location: "Remote, United States - California",
+    period: "Aug 2026 - Oct 2026",
+    date: "",
+    employmentType: "CONTRACTUAL",
+    contributions: [
+      "Designed and developed a homecare management application from the ground up, implementing features for caregiver scheduling, service tracking, appointment management, and client coordination to support daily homecare operations.",
+      "Developed workflow automations using n8n and Zapier to reduce manual tasks, streamline service logging and caregiver scheduling, and automate client notifications across web and mobile platforms.",
+    ],
+    technologies: [
+      "Figma",
+      "Next",
+      "Typescript",
+      "Cursor",
+      "Codex",
+    ],
+  },
+  {
+    id: 2,
+    company: "Freelance",
+    position: "Software Engineer",
+    location: "Remote, United States - Texas",
+    period: "May 2025 - June 2026",
     date: "",
     employmentType: "FULL TIME",
     contributions: [
@@ -37,11 +57,11 @@ const experiences: ExperienceItem[] = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     company: "Freelance",
     position: "Software Engineer",
-    location: "Remote, United States",
-    period: "Aug 2024 - June 2025",
+    location: "Remote, United States - Texas",
+    period: "Sept 2024 - June 2025",
     date: "",
     employmentType: "FULL TIME",
     contributions: [
@@ -58,11 +78,11 @@ const experiences: ExperienceItem[] = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     company: "Awesome CX, Transcom",
     position: "Web Developer",
     location: "Davao City, Philippines",
-    period: "Jan 2023 - Aug 2025",
+    period: "Dec 2022 - Aug 2024",
     date: "",
     employmentType: "FULL TIME",
     contributions: [
@@ -80,7 +100,7 @@ const experiences: ExperienceItem[] = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     company: "Freelance",
     position: "Junior Web Developer",
     location: "Singapore",
